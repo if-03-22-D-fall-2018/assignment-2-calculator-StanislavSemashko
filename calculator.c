@@ -23,22 +23,34 @@ do {
   else{
     double first_operand;
     double second_operand;
-    printf("Pleas enter the first operand \n" );
-            scanf("%lf", &first_operand);
-            printf("Pleas enter the second operand\n" );
-            scanf("%lf",&second_operand );
 
     switch (choosen_methode) {
       case 1:
+      printf("Pleas enter the first operand \n" );
+              scanf("%lf", &first_operand);
+              printf("Pleas enter the second operand\n" );
+              scanf("%lf",&second_operand );
               Add( first_operand, second_operand);
       break;
       case 2:
+      printf("Pleas enter the first operand \n" );
+              scanf("%lf", &first_operand);
+              printf("Pleas enter the second operand\n" );
+              scanf("%lf",&second_operand );
               Subtract(first_operand, second_operand);
       break;
       case 3:
+      printf("Pleas enter the first operand \n" );
+              scanf("%lf", &first_operand);
+              printf("Pleas enter the second operand\n" );
+              scanf("%lf",&second_operand );
               Multiply( first_operand, second_operand);
       break;
       case 4:
+      printf("Pleas enter the first operand \n" );
+              scanf("%lf", &first_operand);
+              printf("Pleas enter the second operand\n" );
+              scanf("%lf",&second_operand );
               Divide( first_operand, second_operand);
       break;
       default: printf("Input not allowed, please try again\n" );
